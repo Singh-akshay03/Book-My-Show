@@ -20,4 +20,5 @@ public class Show extends BaseModel {
     @Enumerated(EnumType.ORDINAL)
     @ElementCollection
     List<Feature> features;
+    private double basePrice;
 }
